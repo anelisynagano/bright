@@ -1,0 +1,120 @@
+body {
+  background: url("https://res.cloudinary.com/octavian2111/image/upload/v1620120519/d62Jtrf_b4jbaq.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr repeat(4, auto) 1fr;
+  grid-template-rows: 4fr repeat(4, auto) 1fr;
+  grid-gap: 20px;
+}
+
+.game-rules {
+  border-radius: 1rem;
+  width: 700px;
+  height: 300px;
+  background-color: #efedea;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: 1px solid #eedf5b;
+  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+  grid-area: 3 / 2 / 4 / 4;
+  justify-self: center;
+  text-align: justify;
+  padding: 20px;
+  margin: 20px;
+}
+
+.level-select-text {
+  border-radius: 1rem;
+  width: 350px;
+  height: 70px;
+  background-color: #eedf5b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: 1px solid #efedea;
+  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+  grid-area: 4 / 2 / 4 / 4;
+  justify-self: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.level-select-container {
+  grid-area: 5 / 2 / 6 / 4;
+  justify-self: center;
+}
+
+.level-button {
+  border-radius: 1rem;
+  width: 300px;
+  height: 70px;
+  background-color: #eedf5b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: 1px solid #efedea;
+  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+  grid-area: 4 / 2 / 4 / 4;
+  justify-self: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.level-button:hover {
+  background-color: #eedf5b;
+  box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
+  color: white;
+  transform: translateY(-7px);
+}
+
+@media screen and (max-width: 600px) {
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .game-rules {
+    border-radius: 1rem;
+    width: auto;
+    height: auto;
+    background-color: #efedea;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: 1px solid #eedf5b;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+    justify-self: center;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .level-select-text {
+    width: 333px;
+    height: 80px;
+    justify-self: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .level-select-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

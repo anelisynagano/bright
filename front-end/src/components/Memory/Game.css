@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+.Game {
+  text-align: center;
+}
+
+.Game-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.Game-title {
+  font-size: 1.5em;
+}
+
+.Game-status {
+  padding: 10px 30px 10px;
+  margin: 20px 0 20px 0;
+  font-family: "Oswald";
+  color: #b95c77;
+  font-weight: bolder;
+  display: inline-flex;
+  background-color: #eedf5b;
+  border-radius: 30px;
+}
+.gameComplete {
+  padding: 15px 30px 10px;
+  margin: 20px 0 20px 0;
+  height: 60px;
+  font-family: "Oswald";
+  font-size: 20px;
+  color: #b95c77;
+  font-weight: bolder;
+  display: inline-flex;
+  background-color: #eedf5b;
+  border-radius: 30px;
+  box-shadow: 1px 1px 8px 3px rgb(255, 243, 75);
+}
+
+.Game-intro {
+  font-size: large;
+}
+
+.Card {
+  display: inline-block;
+  border-color: #eedf5b;
+  border-width: 5px;
+  border-style: solid;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  width: 100px;
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.Matched {
+  border-color: #728e74;
+}
+
+.CardContainer {
+  /* display: grid;
+  justify-content: center;
+  align-items: center;
+  grid: 120px /auto auto; */
+
+  display: inline-block;
+  max-width: 950px;
+  margin: "20px auto";
+
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center; */
+}
